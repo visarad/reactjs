@@ -1,0 +1,60 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: coral;
+    margin: 0 25px;
+}
+
+.header__icon {
+    color: rgb(251, 191, 9);
+}
+
+.header__logoTitle {
+    text-decoration:wavy;
+    border: 0;
+    color:aqua;
+}
+
+.header__inputTask {
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+    margin: 0 10px;
+}
+
+
+.header__taskInput {
+    height: 10px;
+    width: 100% ;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__addTask{
+
+    padding: 5px;
+    background-color:aquamarine;
+
+}
+
+.header__toggleIcon {
+    color: rgb(251, 191, 9);
+}
+
+.tasks_style {
+    
+    align-items: center;
+}
